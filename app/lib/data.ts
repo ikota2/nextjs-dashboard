@@ -32,7 +32,6 @@ export async function fetchRevenue() {
     console.error('Database Error:', error);
     throw new Error('Failed to fetch revenue data.');
   }
-
 }
 
 export async function fetchLatestInvoices() {
